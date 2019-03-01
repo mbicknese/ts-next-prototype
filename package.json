@@ -1,0 +1,22 @@
+{
+  "name": "cycling",
+  "version": "0.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "dependencies": {
+    "@zeit/next-typescript": "^1.1.1",
+    "next": "^8.0.3",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3"
+  },
+  "devDependencies": {
+    "@types/react-dom": "^16.8.2"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "author": "Maarten Bicknese <maarten.bicknese@gmail.com>",
+  "license": "MIT"
+}

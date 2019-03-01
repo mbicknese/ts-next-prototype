@@ -10,7 +10,14 @@
     "react-dom": "^16.8.3"
   },
   "devDependencies": {
-    "@types/react-dom": "^16.8.2"
+    "@types/react-dom": "^16.8.2",
+    "eslint": "^5.14.1",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-react": "^7.12.4",
+    "eslint-plugin-standard": "^4.0.0"
   },
   "scripts": {
     "dev": "next",

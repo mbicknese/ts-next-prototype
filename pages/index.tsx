@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 
-import { getName } from '../modules/data'
+import { getName } from 'modules/data'
 
 const Home = () => {
     const [{ name }, setName] = useState({ name: 'John Doe' })

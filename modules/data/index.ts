@@ -1,1 +1,4 @@
-export const getName = async (): Promise<string> => Promise.resolve('Maarten')
+export const getName = async (): Promise<string> => {
+    const name = 'Maarten'
+    return Promise.resolve(name)
+}

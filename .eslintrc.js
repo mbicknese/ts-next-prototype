@@ -19,9 +19,31 @@ module.exports = {
         "sourceType": "module"
     },
     "plugins": [
-        "react"
+        "react",
+        "jest"
     ],
     "rules": {
         "indent": ["error", 4]
-    }
+    },
+    "overrides": [
+        {
+            ...require('eslint-plugin-jest').configs.recommended,
+            plugins: ['react', 'jest'],
+            env: {
+                'es6': true,
+                'jest/globals': true,
+            },
+            rules: {
+                ...require('eslint-plugin-jest').configs.recommended.rules,
+                ...require('eslint-plugin-react').configs.recommended.rules,
+                'react/react-in-jsx-scope': "off"
+            },
+            files: ['**/__tests__/*.spec.ts', '**/__tests__/*.spec.tsx'],
+            settings: {
+                react: {
+                    version: "detect"
+                }
+            }
+        }
+      ]
 }

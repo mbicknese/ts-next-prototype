@@ -15,6 +15,7 @@
     "sourceMap": true,
     "strict": true,
     "target": "esnext",
+    "esModuleInterop": true,
     "baseUrl": "./",
     "paths": {
       "modules/*": ["modules/*"]

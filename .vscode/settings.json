@@ -13,6 +13,7 @@
       "**/.svn": true,
       "**/.hg": true,
       "**/CVS": true,
+      "**/coverage": true,
       "**/.DS_Store": true,
       "**/.next": true,
       "**/.vscode": true,
